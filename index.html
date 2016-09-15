@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="info1"></p>
+
+<script>
+var d = new Date().getDay();
+var o = new Date().getHours();
+var n = new Date().getMinutes();
+var greting;
+if(d==0){
+  if(o >= 10 && o <= 17) {
+     if(o >=17 && n>=0){
+       greting="Open at  10:00 "
+     }
+     else{
+       greting="Its open , close at 17:00 "
+     }
+  }else{
+     greting ="Open ate 10"
+  }
+}
+else if( d==1 || d==2 || d==3 || d==4 || d==5){
+  if(o >= 10 && o <= 20) {
+     if(o >=20 && n>=0){
+       greting="Open at 10"
+     }
+     else{
+       greting="Its open , close at 20:00"
+     }
+  }else{
+     greting ="Open at 10:00"
+  }
+}
+else if(d==6){
+  if(o >= 10 && o <= 17) {
+     if(o >=17 && n>=0){
+       greting="Open ate 10:00"
+     }
+     else{
+       greting="Its open , close at 17:00"
+     }
+  }else{
+     greting ="Open at 10"
+  }
+
+}
+document.getElementById("info1").innerHTML =greting;
+</script>
+
+</body>
+</html>
