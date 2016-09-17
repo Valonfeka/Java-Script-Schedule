@@ -1,7 +1,7 @@
 # Java-Script-Schedule
-Author:Valon Feka
-Contry:Kosovo
-Contact:valonfek@gmail.com
+Author: Valon Feka<br>
+Contry: Kosovo<br>
+Contact: valonfek@gmail.com<br>
 
 <h1>My Discription</h1>
 Simple Script in JavaScript
